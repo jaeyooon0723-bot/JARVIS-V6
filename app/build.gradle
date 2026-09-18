@@ -1,0 +1,7 @@
+plugins { id 'com.android.application' }
+
+android { namespace 'com.jarvis.v6'; compileSdk 36
+    defaultConfig { applicationId 'com.jarvis.v6'; minSdk 26; targetSdk 36; versionCode 1; versionName '6.0.0' }
+    buildTypes { debug { minifyEnabled false; debuggable true } release { minifyEnabled false; debuggable false } }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
